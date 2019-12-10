@@ -40,6 +40,8 @@ public class AssertionTest {
     public void fails() {
         Assert.fail();
     }
+    
+    //Qui ci va il test per il metodo di comparazione inserito nella classe Assert.java
 
     @Test
     public void failWithNoMessageToString() {
